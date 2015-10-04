@@ -1,6 +1,5 @@
 import org.scalatest._
 import Matchers._
-import P04._
 
 class P04Spec extends WordSpec {
   "Problem 4" when {
