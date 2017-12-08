@@ -4,7 +4,7 @@ import Matchers._
 class P11Spec extends WordSpec {
     "Problem 11" when {
         "given empty list of elements" should {
-            "product an empty list" in {
+            "produce an empty list" in {
                 P11.encode(List[Int]()) should be (List[Any]())
             }
         }

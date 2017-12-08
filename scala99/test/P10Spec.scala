@@ -4,7 +4,7 @@ import Matchers._
 class P10Spec extends WordSpec {
     "Problem 10" when {
         "given empty list of elements" should {
-            "product an empty list" in {
+            "produce an empty list" in {
                 P10.encode(List[Int]()) should be (List[(Int, Int)]())
             }
         }
